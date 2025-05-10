@@ -1,0 +1,12 @@
+:root {
+    /* Colours */
+    --color-text: #fff; /* Giữ màu chữ trắng */
+    --color-primary: #1b3d2d; /* Màu xanh lá đen */
+    --color-secondary: #2a5d46; /* Màu xanh lá đen sáng hơn */
+    --color-dark: #102a1d; /* Màu xanh lá đen đậm hơn */
+    --color-bg: #0a1c14; /* Màu nền xanh lá đen tối */
+  
+    /* Fonts */
+    --font-roboto: "Roboto";
+  }
+  

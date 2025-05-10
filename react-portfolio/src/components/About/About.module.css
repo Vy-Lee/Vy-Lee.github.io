@@ -1,0 +1,60 @@
+@import "../../vars.css";
+
+/* About.module.css */
+
+.container {
+  margin-top: 50px;
+  padding: 100px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.aboutTextContainer {
+  text-align: justify;
+  flex: 1;
+  padding-left: 20px;
+}
+
+.aboutText {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.aboutImage {
+  width: 100%;
+  max-width: 350px; /* Control the max size of the image */
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutTextContainer {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  .aboutImage {
+    max-width: 100%;
+    padding-top: 20px;
+  }
+}

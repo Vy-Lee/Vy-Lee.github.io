@@ -1,0 +1,149 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: white; /* Nền trắng */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.04);
+  padding: 18px 30px;
+  max-width: 100%;
+  color: black;
+  font-family: var(--font-roboto);
+  margin-top: 3rem;
+}
+
+.title {
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+.description {
+  width: 100%;
+  /* max-width: 800px; */
+  text-align: justify;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.image {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+}
+
+.skill {
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: #f1f1f1;
+  padding: 4px 16px;
+  border: 1px solid #ccc;
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.link {
+  padding: 4px 18px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 100px;
+  border: 2px solid black;
+  background: white;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.link:hover {
+  background: black;
+  color: white;
+}
+.imagesGallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cột */
+  gap: 16px;
+  margin-top: 20px;
+}
+/* Căn giữa ảnh cuối nếu là ảnh lẻ (nằm 1 mình cuối hàng) */
+.imagesGallery img:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 60%; /* hoặc 70%, tùy bạn */
+}
+.imagesGallery .image {
+  width: 100%;
+  margin-bottom: 16px;
+  display: block;
+  break-inside: avoid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+
+.imagesGallery .image:hover {
+  transform: scale(1.02);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); /* Nền tối */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.modalImage {
+  width: auto;
+  height: auto;
+  max-width: 800px; /* hoặc 600px tùy bạn */
+  max-height: 90vh; /* chiếm tối đa 90% chiều cao màn hình */
+  object-fit: contain;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+
+
+
