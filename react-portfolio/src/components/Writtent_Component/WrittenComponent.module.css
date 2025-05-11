@@ -1,0 +1,102 @@
+/* WrittenComponent.module.css */
+@import "../../vars.css";
+
+.container {
+  margin-top: 50px;
+  padding: 100px;
+  background-color: #f9f9f9;
+  color: #333;
+  max-width: 900;
+}
+
+.title {
+  font-size: 3vw;
+  text-align: left;
+  margin-bottom: 4vh;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  max-width: 900px; /* Constrain the title width */
+  margin-left: auto; /* Ensure it is aligned to the left but within the max-width */
+  margin-right: auto; /* Ensure it does not overflow */
+  padding-left: 20px;
+}
+
+.description {
+  font-size: 2.5vw;
+  margin-bottom: 4vh;
+  max-width: 900px; /* Constrain the title width */
+  color: #333;
+  margin-left: auto; /* Ensure it is aligned to the left but within the max-width */
+  margin-right: auto; /* Ensure it does not overflow */
+  padding-left: 20px;
+}
+
+.subtitle {
+  font-size: 2.2vw;
+  margin-bottom: 6vh;
+  color: #777;
+  max-width: 900px; /* Constrain the title width */
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: auto; /* Ensure it is aligned to the left but within the max-width */
+  margin-right: auto; /* Ensure it does not overflow */
+  padding-left: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.sectionTitle {
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.sectionContent {
+  font-size: 1.5vw;
+  color: black;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 50px 20px;
+  }
+
+  .title {
+    font-size: 5vw; /* Resize the title for smaller screens */
+    /* padding-left: 0; */
+    margin-bottom: 15px;
+  }
+
+  .description {
+    font-size: 3vw;
+    /* padding-left: 0; */
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 3vw;
+    /* padding-left: 0; */
+    margin-bottom: 15px;
+  }
+
+  .sectionTitle {
+    font-size: 3vw;
+  }
+
+  .sectionContent {
+    font-size: 2.2vw;
+    line-height: 1.5;
+  }
+}

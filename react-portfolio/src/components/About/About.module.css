@@ -10,10 +10,16 @@
 }
 
 .title {
-  font-size: 3rem;
-  text-align: center;
+  font-size: 3vw;
+  text-align: left;
   margin-bottom: 30px;
   color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  max-width: 900px; /* Constrain the title width */
+  margin-left: auto; /* Ensure it is aligned to the left but within the max-width */
+  margin-right: auto; /* Ensure it does not overflow */
+  padding-left: 20px;
 }
 
 .content {
@@ -31,7 +37,7 @@
 }
 
 .aboutText {
-  font-size: 30px;
+  font-size: 2.2vw;
   line-height: 1;
   margin-bottom: 15px;
 }
@@ -56,5 +62,9 @@
   .aboutImage {
     max-width: 100%;
     padding-top: 20px;
+  }
+  .title{
+    padding-left: 0;
+    margin-bottom: 0;
   }
 }

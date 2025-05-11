@@ -66,4 +66,10 @@
   .links {
     align-items: center;
   }
+  .text h2 {
+    font-size: 8vw;
+  }
+  .text p{
+    font-size: 4vw;
+  }
 }
