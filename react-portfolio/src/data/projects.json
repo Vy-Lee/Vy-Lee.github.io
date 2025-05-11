@@ -110,6 +110,39 @@
     ]
   },
   {
+    "title": "Environmental Portrait",
+    "imageSrc": "projects/project.png",
+    "description": [
+      "In the photographs, we have a series of domestic family moments that are being captured in real, spontaneous settings. ",
+      "The first photograph takes a tender moment where an adult is lifting up a child, and one can see the tenderness and intimacy of their engagement. The natural light pouring through the windows adds a sense of intimacy and calmness to the ambiance. ",
+      "In the second image, the child sits in a calm, contemplative position, gazing out of the window, as the light from behind the blinds brings attention to the peaceful, quiet environment.",
+      "The third photo shows the start of the day, two children in bed, a moment of tranquility before the day's activities start, their bodies covered under warm blankets, with the gentle sunlight filtering through the curtains.",
+      "The final photo shows the child performing a daily activity, cooking in the kitchen—a moment of maturity and independence. The cluttered but comfortable kitchen scene encapsulates the security of home and the ease of habit, with golden, warm light a sense of safety and protection.",
+      "They collectively represent a narrative of family life—moments of tendermess, playfulness, quiet viewing, and growing independence—enveloped in the comforting, inviting presence of home."
+    ],
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com",
+    "images":[
+      {
+        "src": "images/Environmental_Portrait/LeVy_edited-4.jpg",
+        "alt": "LeVy_edited-4"
+      },
+      {
+        "src": "images/Environmental_Portrait/LeVy_edited-9.jpg",
+        "alt": "LeVy_edited-9"
+      },
+      {
+        "src": "images/Environmental_Portrait/LeVy_edited-10.jpg",
+        "alt": "LeVy_edited-10"
+      },
+      {
+        "src": "images/Environmental_Portrait/LeVy_edited-11.jpg",
+        "alt": "LeVy_edited-11"
+      }
+    ]
+  },
+  {
     "title": "Photo Essay",
     "imageSrc": "projects/project.png",
     "description": [
@@ -188,39 +221,6 @@
       {
         "src": "images/Photo_Essay/stage 1-6.jpg",
         "alt": "stage 1-6"
-      }
-    ]
-  },
-  {
-    "title": "Environmental Portrait",
-    "imageSrc": "projects/project.png",
-    "description": [
-      "In the photographs, we have a series of domestic family moments that are being captured in real, spontaneous settings. ",
-      "The first photograph takes a tender moment where an adult is lifting up a child, and one can see the tenderness and intimacy of their engagement. The natural light pouring through the windows adds a sense of intimacy and calmness to the ambiance. ",
-      "In the second image, the child sits in a calm, contemplative position, gazing out of the window, as the light from behind the blinds brings attention to the peaceful, quiet environment.",
-      "The third photo shows the start of the day, two children in bed, a moment of tranquility before the day's activities start, their bodies covered under warm blankets, with the gentle sunlight filtering through the curtains.",
-      "The final photo shows the child performing a daily activity, cooking in the kitchen—a moment of maturity and independence. The cluttered but comfortable kitchen scene encapsulates the security of home and the ease of habit, with golden, warm light a sense of safety and protection.",
-      "They collectively represent a narrative of family life—moments of tendermess, playfulness, quiet viewing, and growing independence—enveloped in the comforting, inviting presence of home."
-    ],
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com",
-    "images":[
-      {
-        "src": "images/Environmental_Portrait/LeVy_edited-4.jpg",
-        "alt": "LeVy_edited-4"
-      },
-      {
-        "src": "images/Environmental_Portrait/LeVy_edited-9.jpg",
-        "alt": "LeVy_edited-9"
-      },
-      {
-        "src": "images/Environmental_Portrait/LeVy_edited-10.jpg",
-        "alt": "LeVy_edited-10"
-      },
-      {
-        "src": "images/Environmental_Portrait/LeVy_edited-11.jpg",
-        "alt": "LeVy_edited-11"
       }
     ]
   }
